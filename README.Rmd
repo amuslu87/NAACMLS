@@ -1,0 +1,30 @@
+This R script provides similar functionality to the Python version. Key differences and advantages of using R include:
+
+Built-in features:
+
+
+The rvest package is specifically designed for web scraping
+dplyr and tidyr provide powerful data manipulation capabilities
+R's data frames are particularly well-suited for this kind of tabular data
+
+
+Data Analysis Benefits:
+
+
+Easy integration with R's statistical analysis tools
+Excellent visualization capabilities with ggplot2
+Strong support for data cleaning and transformation
+
+To use this script, you'll need to:
+
+Install the required packages:
+
+install.packages(c("rvest", "dplyr", "tidyr", "stringr"))
+
+Like the Python version, you'll need to enhance the get_program_links() function to handle:
+
+
+Form submission
+Pagination
+URL collection
+
