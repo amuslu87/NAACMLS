@@ -7,6 +7,9 @@
 
 install.packages(c("rvest", "dplyr", "tidyr", "stringr", "httr", "xml2", "RSelenium"))
 
+install.packages("usethis")
+library(usethis)
+
 # Load required libraries
 library(rvest)
 library(dplyr)
